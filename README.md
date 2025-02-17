@@ -4,4 +4,5 @@ This repository consists of codes on :<br>
 1. Binary Search using Recursion<br>
 2. Linear way of finding Minimum and Maximum element in an Array<br>
 3. Quick Sort in an Array<br>
-4. Merge Sort in an Array
+4. Merge Sort in an Array<br>
+5. Heap Sort in an Array
