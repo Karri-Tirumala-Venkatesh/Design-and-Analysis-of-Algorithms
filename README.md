@@ -6,4 +6,6 @@ This repository consists of codes on :<br>
 3. Quick Sort in an Array<br>
 4. Merge Sort in an Array<br>
 5. Heap Sort in an Array<br>
-6. Radix sort on variable size integers
+6. Radix sort on variable size integers<br>
+7. Bubble Sort in an Array<br>
+8. Insertion Sort in an Array
