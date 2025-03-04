@@ -2,7 +2,7 @@
 #include <vector>
 using namespace std;
 
-// Insertion Sort Principle : Insert the unsorted elements into the sorted part of the array
+// Selection Sort Principle : Select the Minimum element and bring it to the first
 
 int main()
 {

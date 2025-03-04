@@ -16,18 +16,10 @@ void create_max_heap(vector<int> &vec, int len)
         if (2 * i + 1 <= len - 1 && vec[i] < vec[2 * i + 1])
         {
             left = vec[2 * i + 1];
-            // int temp = vec[i];
-            // vec[i] = vec[2 * i + 1];
-            // vec[2 * i + 1] = temp;
-            // i = 2 * i + 1;
         }
         if (2 * i + 2 <= len - 1 && vec[i] < vec[2 * i + 2])
         {
             right = vec[2 * i + 2];
-            // int temp = vec[i];
-            // vec[i] = vec[2 * i + 2];
-            // vec[2 * i + 2] = temp;
-            // i = 2 * i + 2;
         }
 
         if (left < right)
