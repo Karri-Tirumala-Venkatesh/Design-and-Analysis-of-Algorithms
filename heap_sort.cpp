@@ -5,34 +5,28 @@ using namespace std;
 
 void create_max_heap(vector<int> &vec, int len)
 {
-    int last_parent = floor(len / 2) - 1;
-    int i = last_parent;
-    int left = 0;
-    int right = 0;
+    int i = floor(len / 2) - 1;
     while (i != -1)
     {
-        left = 0;
-        right = 0;
-        if (2 * i + 1 <= len - 1 && vec[i] < vec[2 * i + 1])
+        int key = -1;
+        if (2 * i + 1 < len && vec[i] < vec[2 * i + 1])
         {
-            left = vec[2 * i + 1];
+            key = 2 * i + 1;
         }
         if (2 * i + 2 <= len - 1 && vec[i] < vec[2 * i + 2])
         {
-            right = vec[2 * i + 2];
+            if (key != -1 && vec[key] < vec[2 * i + 2])
+            {
+                key = 2 * i + 2;
+            }
         }
 
-        if (left < right)
+        if (key != -1)
         {
-            vec[2 * i + 2] = vec[i];
-            vec[i] = right;
-            i = 2 * i + 2;
-        }
-        else if (right < left)
-        {
-            vec[2 * i + 1] = vec[i];
-            vec[i] = left;
-            i = 2 * i + 1;
+            int temp = vec[key];
+            vec[key] = vec[i];
+            vec[i] = temp;
+            i = key;
         }
         else
         {
