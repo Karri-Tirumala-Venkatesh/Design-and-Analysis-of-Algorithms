@@ -15,5 +15,5 @@ This repository consists of codes on :<br>
 12. Prims Algorithm to find the cost of the Minimum Spanning Tree<br>
 13. Kruskals Algorithm to find the cost of the Minimum Spanning Tree<br>
 14. Job Scheduling - Greedy Algorithm<br>
-15. Knapsack Problem - Greedy Algorithm<br>
+15. Fractional Knapsack Problem - Greedy Algorithm<br>
 16. Activity Selection Problem - Greedy Algorithm<br>
