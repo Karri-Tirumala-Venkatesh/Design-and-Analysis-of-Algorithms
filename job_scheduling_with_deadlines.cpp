@@ -5,9 +5,9 @@ using namespace std;
 
 int main()
 {
-    vector<int> profit = {200, 40, 60, 15};
-    vector<int> deadline = {2, 1, 3, 1};
-    vector<int> job_id = {1, 2, 3, 4};
+    vector<int> profit = {200, 180, 190, 300, 120, 100};
+    vector<int> deadline = {5, 3, 3, 2, 4, 2};
+    vector<int> job_id = {1, 2, 3, 4, 5, 6};
 
     // Replace this Buuble sort with any other optimized sorting Algorithm, to get a time complexity of O(n.log[n])
     // Sorting in the Descending order of Profit
@@ -52,9 +52,13 @@ int main()
 
     for (int i = 0; i < job_id.size(); i++)
     {
-        if (gantt[deadline[i] - 1] == 0)
+        for (int j = deadline[i] - 1; j >= 0; j--)
         {
-            gantt[deadline[i] - 1] = job_id[i];
+            if (gantt[j] == 0)
+            {
+                gantt[j] = job_id[i];
+                break;
+            }
         }
     }
 
