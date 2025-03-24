@@ -5,15 +5,19 @@ using namespace std;
 
 int main()
 {
-    vector<vector<int>> graph = {
-        {0, 7, 9, 0, 0, 14},  // Node 0 connections
-        {7, 0, 10, 15, 0, 0}, // Node 1 connections
-        {9, 10, 0, 11, 0, 2}, // Node 2 connections
-        {0, 15, 11, 0, 6, 0}, // Node 3 connections
-        {0, 0, 0, 6, 0, 9},   // Node 4 connections
-        {14, 0, 2, 0, 9, 0}   // Node 5 connections
-    };
-    int n = graph.size();
+    cout << "Enter the Number of Nodes : ";
+    int n;
+    cin >> n;
+    vector<vector<int>> graph(n, vector<int>(n));
+    for (int i = 0; i < n; i++)
+    {
+        int temp1;
+        for (int j = 0; j < n; j++)
+        {
+            cin >> temp1;
+            graph[i][j] = temp1;
+        }
+    }
     vector<int> pred;
     for (int i = 0; i < n; i++)
     {
@@ -67,9 +71,17 @@ int main()
         }
         visited[u] = 1;
     }
-    for (auto i : pred)
+    for (int i = 0; i < n; i++)
     {
-        cout << i << " ";
+        cout << "Shortest Path from 0 to " << i << " : " << shortest[i] << "\n";
+        cout << "Path : ";
+        int j = i;
+        while (j != 0)
+        {
+            cout << j << " ";
+            j = pred[j];
+        }
+        cout << "0\n";
     }
     return 0;
 }
