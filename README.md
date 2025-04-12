@@ -17,3 +17,5 @@ This repository consists of codes on :<br>
 14. Job Scheduling - Greedy Algorithm<br>
 15. Fractional Knapsack Problem - Greedy Algorithm<br>
 16. Activity Selection Problem - Greedy Algorithm<br>
+17. Fibonacci sequence using Dynamic Programming<br>
+18. Multistage Graph Problem using Dynamic Programming<br>
