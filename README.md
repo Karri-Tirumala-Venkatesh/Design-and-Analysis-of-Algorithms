@@ -19,3 +19,4 @@ This repository consists of codes on :<br>
 16. Activity Selection Problem - Greedy Algorithm<br>
 17. Fibonacci sequence using Dynamic Programming<br>
 18. Multistage Graph Problem using Dynamic Programming<br>
+19. N - Queens Problem - Back Tracking
