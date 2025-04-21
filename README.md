@@ -19,5 +19,6 @@ This repository consists of codes on :<br>
 16. Activity Selection Problem - Greedy Algorithm<br>
 17. Fibonacci sequence - Dynamic Programming<br>
 18. Multistage Graph Problem - Dynamic Programming<br>
-19. Longest Common Subsequence - Dynamic Programming<br>
-20. N - Queens Problem - Back Tracking
+19. Travelling Salesman Problem - Dynamic Programming<br>
+20. Longest Common Subsequence - Dynamic Programming<br>
+21. N - Queens Problem - Back Tracking
