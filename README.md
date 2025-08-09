@@ -181,7 +181,7 @@ copies or substantial portions of the Software.
 ## 📞 Contact
 
 **Karri Tirumala Venkatesh**
-- 📧 Email: [karritirumalavenkatesh@gmail.com](mailto:karritirumalavenkatesh@gmail.com)
+- 📧 Email: [thektv3256@gmail.com](mailto:thektv3256@gmail.com)
 - 🐙 GitHub: [@Karri-Tirumala-Venkatesh](https://github.com/Karri-Tirumala-Venkatesh)
 - 💼 LinkedIn: [Karri Tirumala Venkatesh](https://linkedin.com/in/karri-tirumala-venkatesh)
 
